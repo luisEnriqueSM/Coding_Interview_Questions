@@ -5,6 +5,7 @@ import java.util.HashSet;
 public class LeetCode217 {
     public static void main(String[] args) {
         // Contains Duplicate
+        // Time complexity ---> O(n)
         int array[] = {1,1,1,3,3,4,3,2,4,2};
         boolean response = containsDuplicates(array);
         System.out.println(response);
